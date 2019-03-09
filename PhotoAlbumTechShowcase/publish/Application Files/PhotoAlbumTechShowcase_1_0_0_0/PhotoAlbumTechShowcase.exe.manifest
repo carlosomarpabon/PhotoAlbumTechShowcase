@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PhotoAlbumTechShowcase.exe" version="1.0.0.0" publicKeyToken="100ff6dfcd7c173c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PhotoAlbumTechShowcase" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PhotoAlbumTechShowcase.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="675240">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tmdJuB4UifzY11SyrTnr4NtoE0TjkqP0nckjVkO9vQY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PhotoAlbumTechShowcase.exe" size="7576">
+      <assemblyIdentity name="PhotoAlbumTechShowcase" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mPWbbELC8g7eEl4XHiJ0gSCgQBovnZJGzLtoYAcV4TI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PhotoAlbumTechShowcase.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uAYar7vNyhiVJ1+rwDucruPLIXGcjhw/EzQpBzo3wcI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MSI\carlo" issuerKeyHash="dddc79b4974b9745002bfa5480b2a5b94df09902" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>A9CjfhDAOR/bt1+bsd6ajSKQ+NQfR8xQybKAeSURXq4=</DigestValue></Reference></SignedInfo><SignatureValue>ZJ+/YYyqhkd862qARPKBhW8FBOkIwvr5rpsXdFLA3yHwIRCIM6Va0DY4fI7yTRXLIFSppnm6IMveBjamcPQ3Kp1uYzUSG08L6FLnTyW4OU3YiGrrPML8yIK4l8D6LZqfIZxci+ops7J3zoq6PP0VMeEm0YRif1pZFCnkS5iihfg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rEJiSbiKDe202kKZ+zYmottV/I0qEJKRJ7KoPz+uHdPOiAY5AQyZRRB2fXN0N45jFyq26GvT5PXnuWeoO3TaV2pGBurIwTCVI5esN5qbn0W5bZ4GzPZeyZDmYPrAg4oFkrRVVnDer0bNyv+NpQKrl7As7plOsP2bmYcr/6C28VU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ae5e11257980b2c950cc471fd4f890228d9adeb19b5fb7db1f39c0107ea3d003" Description="" Url=""><as:assemblyIdentity name="PhotoAlbumTechShowcase.exe" version="1.0.0.0" publicKeyToken="100ff6dfcd7c173c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MSI\carlo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8DSJ3HQpZyyh0ZHlKP9nHFQNX35czCDmwvBlRzwT74k=</DigestValue></Reference></SignedInfo><SignatureValue>bDT0QQ1RXeDOByEJUD0z+ehAxUxqlBM4rIsbkYcyCFJpt3YbwWDdlo0AT7J9H6N9cR+2E0l3B6rBAXwLJmZDvxgpjCMc4l8mrUI6UfM7TgS7b2nmjWhCF036TGFTY1H9WbAyh9iYhupFpsv62J6IjubC7pRuAxebB0rEaWUjjcQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rEJiSbiKDe202kKZ+zYmottV/I0qEJKRJ7KoPz+uHdPOiAY5AQyZRRB2fXN0N45jFyq26GvT5PXnuWeoO3TaV2pGBurIwTCVI5esN5qbn0W5bZ4GzPZeyZDmYPrAg4oFkrRVVnDer0bNyv+NpQKrl7As7plOsP2bmYcr/6C28VU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQXVqnz8GQsK5Hofdxlrzs2jANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIATQBTAEkAXABjAGEAcgBsAG8wHhcNMTkwMzA5MDMxOTU1WhcNMjAwMzA4MDkxOTU1WjAdMRswGQYDVQQDHhIATQBTAEkAXABjAGEAcgBsAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKxCYkm4ig3ttNpCmfs2JqLbVfyNKhCSkSeyqD8/rh3TzogGOQEMmUUQdn1zdDeOYxcqtuhr0+T157lnqDt02ldqRgbqyMEwlSOXrDeam59FuW2eBsz2XsmQ5mD6wIOKBZK0VVZw3q9Gzcr/jaUCq5ewLO6ZTrD9m5mHK/+gtvFVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEABj8fjHQglaUrcHb6JDEefUQ0sP0GoftXhaGA/cdjGGh46yn6sBSDuNBCzgOKgHGERVQRenRaIprYHmSezKEBu0+F0TBwEsVlkLcmmxB9sFv60gX4v3ipwTbWsxb4ffzrKvfSlWssquNiWg4j1UvpFUtg9pIKl11+MD0GYp8vBbk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
